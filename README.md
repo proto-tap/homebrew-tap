@@ -1,20 +1,20 @@
 # homebrew-tap
 
-Homebrew formulae for [proto-tap](https://github.com/proto-tap) tools.
+Homebrew casks for [proto-tap](https://github.com/proto-tap) tools.
 
 ## Usage
 
 ```bash
-brew install proto-tap/tap/sql-tap
-brew install proto-tap/tap/http-tap
-brew install proto-tap/tap/grpc-tap
+brew install --cask proto-tap/tap/sql-tap
+brew install --cask proto-tap/tap/http-tap
+brew install --cask proto-tap/tap/grpc-tap
 ```
 
-To install and upgrade by name (e.g., `brew install sql-tap`, `brew upgrade`), tap and trust it first:
+To install and upgrade by name (e.g., `brew install --cask sql-tap`, `brew upgrade`), tap and trust it first:
 
 ```bash
 brew tap proto-tap/tap
 brew trust proto-tap/tap
 ```
 
-Formulae are published by GoReleaser on each release.
+Casks are published by GoReleaser on each release.
